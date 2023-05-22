@@ -4,6 +4,12 @@ service_account.json
 # Local .terraform directories
 **/.terraform/*
 
+# .tf files
+*.tfplan
+*.tfplan.*
+.terraform.lock.hcl
+backend.tf
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
