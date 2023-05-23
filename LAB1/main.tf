@@ -8,6 +8,7 @@ terraform {
   }
 }
 
+# test commit
 provider "google" {
   credentials = file("service_account.json")
 
