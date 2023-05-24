@@ -1,0 +1,5 @@
+terraform state mv google_compute_network.test-vpc module.network.google_compute_network.main-vpc
+
+terraform state mv 'google_compute_subnetwork.regional-subnet' 'module.network.google_compute_subnetwork.regional-subnets[0]'
+
+terraform state mv 'google_compute_subnetwork.regional-subnet2' 'module.network.google_compute_subnetwork.regional-subnets[1]'
