@@ -8,6 +8,6 @@ module "network" {
     userId = var.userId
     auto_create_subnetworks = var.network_createSubnet
     mtu                     = var.network_mtu
-    network_subnetInfo = var.network_subnetInfo
+    subnetInfo = var.network_subnetInfo
 
 }

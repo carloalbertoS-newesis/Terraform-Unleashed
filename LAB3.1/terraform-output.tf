@@ -1,12 +1,12 @@
 
-output "network_name" {
-  value = azurerm_virtual_network.main-vnet.name
+output "vnet_name" {
+  value = module.network.vnet_name
 }
 
-output "aks_subnet_id" {
-  value = azurerm_subnet.subnets.0.id
+output "subnet0_name" {
+  value = module.network.subnet0_name
 }
 
-output "webapp_subnet_id" {
-  value = azurerm_subnet.subnets.1.id
+output "subnet01_name" {
+  value = module.network.subnet01_name
 }
